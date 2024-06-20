@@ -10,6 +10,9 @@ export default antfu(
   {
     rules: {
       // overrides
+      'antfu/top-level-function': 0,
+      '@typescript-eslint/no-var-requires': 0,
+      'no-console': 'off',
     },
   },
 )
